@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "raw_basename": "thermal_2026-03-26_09-56-25.raw",
+  "source": "thermal_web_app",
+  "capture": {
+    "duration": 5.0,
+    "refresh_rate": 32,
+    "capture_fps": 16,
+    "output_dir": "/home/metabowlite2/IR_Mblite/output/session_2026-03-26_09-55-11"
+  },
+  "estimate": {
+    "water_volume": 1000.0,
+    "calibration": false,
+    "urine_volume": 500.0,
+    "urine_temp": 37.0,
+    "teq_window_s": 20.0,
+    "water_temp_mode": "min",
+    "teq_temp_mode": "max",
+    "fps_for_calculation": 4.0,
+    "temp_method": "patches",
+    "segment_retain_fraction": 0.9
+  }
+}
