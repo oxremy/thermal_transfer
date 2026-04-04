@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "raw_basename": "thermal_2026-04-03_17-48-32.raw",
+  "source": "thermal_web_app",
+  "capture": {
+    "duration": 90.0,
+    "refresh_rate": 32,
+    "capture_fps": 16,
+    "output_dir": "/home/metabowlite2/IR_Mblite/output/session_2026-04-03_17-03-02"
+  },
+  "estimate": {
+    "water_volume": 2250.0,
+    "calibration": false,
+    "urine_volume": 500.0,
+    "urine_temp": 41.8,
+    "segment_teq_window_s": 10.0,
+    "patches_teq_window_s": 10.0,
+    "segment_water_temp_mode": "min",
+    "patches_water_temp_mode": "min",
+    "segment_teq_temp_mode": "average",
+    "patches_teq_temp_mode": "max",
+    "segment_fps_for_calculation": 4.0,
+    "patches_fps_for_calculation": 4.0,
+    "temp_method": "both",
+    "segment_retain_fraction": 0.7,
+    "segment_min_delta_c": 1.0,
+    "segment_peak_smooth_s": 3.0,
+    "segment_warm_offset_after_peak_s": 1.0,
+    "segment_warm_window_half_s": 1.0,
+    "segment_volume_mask_mode": "cool"
+  }
+}
